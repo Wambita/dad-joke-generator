@@ -14,7 +14,7 @@ h1{
     margin-bottom: 30px;
 }
 
-.joke-container {
+.joke-container,  .error-container {
     margin-top:  40px;
     display: flex;
     flex-direction: column;
@@ -36,7 +36,7 @@ h1{
     margin-bottom: 20px;
 }
 
-.joke-container button {
+.joke-container button , a {
     margin-top: 20px;
     padding: 14px 20px;
     font-size: 1.4em;
