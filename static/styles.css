@@ -1,0 +1,53 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #e9ebed;
+}
+
+h1{
+    font-size:  4em;
+    color: #2a0238;
+    margin-bottom: 30px;
+}
+
+.joke-container {
+    margin-top:  40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:  20px;
+    background-color:  #dab4e7b6;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.3);
+    max-width: 600px;
+    min-height: 400px;
+    text-align: center;
+}
+
+.joke-container p {
+    font-size:  2em;
+    color:  #2a0233;
+    margin-bottom: 20px;
+}
+
+.joke-container button {
+    margin-top: 20px;
+    padding: 14px 20px;
+    font-size: 1.4em;
+    color:  #fff;
+    background-color: #29022971;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.joke-container button:hover {
+    background-color: #d6119b;
+    color: #2a0238;
+}
